@@ -20,7 +20,7 @@ public class TokenGenerator {
                 if (userInput == 5 || userInput == 10 || userInput == 15) {
                     return userInput;
                 }
-            }catch (Exception ignored){
+            } catch (Exception ignored) {
 
             }
             System.out.println("Please read instructions carefully, pay attention to token length");
