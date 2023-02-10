@@ -37,7 +37,6 @@ public class TokenGenerator {
             char charToAppend = (char) ThreadLocalRandom.current().nextInt(lowerASCIBoundary, upperASCIBoundary);
             tokenBuilder.append(charToAppend);
         }
-        System.out.println(tokenBuilder.length());
         return tokenBuilder.toString();
 
     }
